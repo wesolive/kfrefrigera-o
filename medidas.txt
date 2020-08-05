@@ -1,0 +1,41 @@
+header{
+	width:full
+	heigth: 170/2
+
+	retratil{
+	h: 48
+	}
+
+	logo{
+	 w: 170
+	 h: 170.3
+	}
+
+	font: 24px monospace
+}
+
+capa{
+	W:full
+	H: 657
+
+	div-capa: 
+	w:1170
+	h:400
+}
+
+
+serviços{
+	w:1170
+	h:778
+
+}
+
+cada serviço{
+	h:250
+	w 250
+}
+
+contato{
+	h:471
+	w:1170
+}

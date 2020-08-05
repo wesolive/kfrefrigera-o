@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Montserrat', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*estilizando menu*/
+.navbar{
+	position: absolute;
+	height: 170px;
+	background-color: #060382;
+	box-shadow: 2px 2px 3px rgb(99,99,99);
+}
+.row{
+	position: relative;
+	width: 220px;
+	height: 170px;
+	background-color: #060382;
+	top: 20%;
+	left: 5%;
+}
+.logo{
+	background-image: url(../img/logo.png);
+	background-size: 100% 100%;
+	width: 210px;
+	height: 160px;
+	margin: 5px
+}
+.navbar-nav {
+	position: absolute;
+	width: 25%;
+	top: 65%;
+	right: 3%;
+	text-align: right;
+}
+.navegacao li{
+	display: inline-block;
+	margin: 19px;
+	margin-left: 20px;
+	text-align: justify;
+}
+.navegacao a{
+	font-size: 15px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+
+}
+
+.texto-capa{
+	background-color: rgba(212,212,212,0.8);
+	width: 100%;
+	height: 513px;
+	margin-top: 3%;
+}
+.capa{
+	width: 100%;
+	height: 511px;
+	background-image: url(../img/banner.jpg);
+	background-size: 100% 100%;
+	margin-top: 3%;
+	box-shadow: 2px 2px 3px rgb(99,99,99);
+}
+.texto{
+	width: 85%;
+	margin: 80px auto;
+	border-bottom: 1px solid rgb(201, 201, 201);
+	padding-bottom: 10%;
+}
+.texto h1{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 1px 3px rgb(224,224,224);
+}
+.texto p{
+	width: 70%;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 18px;
+	text-align:center;
+	margin-top: 10%;
+}
+.box-servico{
+	padding:50px 0;
+}
+.box-servico h1{
+	width: 60%;
+	margin: 30px auto; 
+	font-size: 35px;
+	text-align: center;
+	text-shadow: 1px 3px rgb(224,224,224);
+}
+
+section .box-servico .box-row{
+	float: right;
+	width: 20%;
+	height: 300px;
+	background-color: #060382;
+	margin-right: 10%;
+	margin-top: 70px;
+	border-radius: 8px;
+
+}
+section .box-servico .card{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 350px;	
+	margin-top: 35px;
+	left: -35px;
+	border-radius: 8px;
+}
+.box-servico .card img{
+	width: 100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+.box-servico .card p{
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 15px;
+}
+.contato{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+form{
+	background-color: red;
+	margin-top: 30%;
+	width: 40%;
+	margin-left: 20px;	
+}
+
+form .form-group input{
+	width: 50%;
+}
+
+form .form-group textarea{
+	width: 50%;
+}
+form .btn{
+	width: 100px;
+	background-color: #060382;
+	color: #fff;
+}
+form .btn:hover {
+	background-color: #618ac7;
+	color: #fff;
+}
+section .mapa{
+	width: 40%;
+	float: right;
+	position: relative;
+	background-color: green;
+	padding-top: 30%;
+}
